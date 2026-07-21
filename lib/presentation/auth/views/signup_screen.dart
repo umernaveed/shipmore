@@ -40,7 +40,7 @@ class SignUpScreen extends GetView<SignUpController> {
                         Text(
                           'Sign Up',
                           style: context.textTheme.bodyLarge?.copyWith(
-                            color: const Color(0xFF7A1EC2),
+                            color: const Color(0xFF6F3A91),
                             fontSize: 26,
                             fontFamily: 'Poppins',
                             fontWeight: FontWeight.w700,
@@ -447,7 +447,7 @@ class AppDatePicker extends StatelessWidget {
           decoration: InputDecoration(
             suffixIcon: const Icon(
               Icons.calendar_today,
-              color: Color(0xFF7A1EC2),
+              color: Color(0xFF6F3A91),
             ),
             hintText: hint,
             hintStyle: context.textTheme.bodyMedium?.copyWith(

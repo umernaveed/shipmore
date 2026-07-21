@@ -294,7 +294,7 @@ class _LiteLogo extends StatelessWidget {
         const CustomPaint(size: Size(34, 21), painter: _SpeedMarkPainter()),
         const SizedBox(width: 4),
         Text.rich(TextSpan(children: [
-          const TextSpan(text: 'Herms', style: TextStyle(color: Dashboard.darkBlue)),
+          const TextSpan(text: 'SHIPMORE COURIERS', style: TextStyle(color: Dashboard.darkBlue)),
           TextSpan(text: '', style: TextStyle(color: Dashboard.blue)),
         ]), style: const TextStyle(fontSize: 24, fontFamily: 'Poppins', fontStyle: FontStyle.italic, fontWeight: FontWeight.w800, height: 0.95)),
       ]),

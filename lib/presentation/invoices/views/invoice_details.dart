@@ -111,7 +111,7 @@ class _LiteLogo extends StatelessWidget {
               TextSpan(
                 children: [
                   const TextSpan(
-                    text: 'Herms',
+                    text: 'SHIPMORE COURIERS',
                     style: TextStyle(color: Dashboard.darkBlue),
                   ),
                   TextSpan(
@@ -171,7 +171,7 @@ class _InvoiceHero extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(18, 18, 18, 18),
       decoration: BoxDecoration(
         gradient: const LinearGradient(
-          colors: [Color(0xFF7A1EC2), Color(0xFF2D0738)],
+          colors: [Color(0xFF6F3A91), Color(0xFF321548)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
@@ -978,7 +978,7 @@ class _InvoiceIllustration extends StatelessWidget {
               width: 78,
               height: 94,
               decoration: BoxDecoration(
-                color: const Color(0xFFEAF3FF),
+                color: const Color(0xFFF8F1FB),
                 borderRadius: BorderRadius.circular(10),
                 boxShadow: [
                   BoxShadow(

@@ -40,7 +40,7 @@ class AppDialogs {
           'Permission Denied',
           style: TextStyle(
             fontSize: 13.sp,
-            color: Color(0xFF7A1EC2),
+            color: Color(0xFF6F3A91),
             fontWeight: FontWeight.bold,
           ),
         ),
@@ -70,7 +70,7 @@ class AppDialogs {
               'Setting',
               style: TextStyle(
                 fontSize: 14,
-                color: Color(0xFF7A1EC2),
+                color: Color(0xFF6F3A91),
               ),
             ),
           ),
@@ -80,7 +80,7 @@ class AppDialogs {
               'Cancel',
               style: TextStyle(
                 fontSize: 14,
-                color: Color(0xFF7A1EC2),
+                color: Color(0xFF6F3A91),
               ),
             ),
           ),

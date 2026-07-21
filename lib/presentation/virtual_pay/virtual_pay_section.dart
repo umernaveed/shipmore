@@ -13,7 +13,7 @@ class VirtualPaySection extends StatefulWidget {
     super.key,
     required this.payload,
     this.returnUrl =
-        'https://hermsjamaica.com/payment/success',
+        'https://shipmoretrackingja.com/payment/success',
     this.buttonKey,
     this.onPayNowPressed,
   });

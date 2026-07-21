@@ -40,7 +40,7 @@ class DownloadButton extends StatelessWidget {
         width: context.width,
         height: 5.h,
         decoration: BoxDecoration(
-          color: Color(0xFF7A1EC2),
+          color: Color(0xFF6F3A91),
           borderRadius: BorderRadius.circular(8),
         ),
         child: Center(

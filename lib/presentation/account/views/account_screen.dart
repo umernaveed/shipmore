@@ -191,7 +191,7 @@ class _AccountLogo extends StatelessWidget {
               TextSpan(
                 children: [
                   const TextSpan(
-                    text: 'Herms',
+                    text: 'SHIPMORE COURIERS',
                     style: TextStyle(color: Dashboard.darkBlue),
                   ),
                   TextSpan(
@@ -275,7 +275,7 @@ class _ProfileCard extends StatelessWidget {
     return Obx(() {
       final user = controller.user.value;
       final name = user.completeName.trim().isEmpty
-          ? 'Herms User'
+          ? 'SHIPMORE COURIERS User'
           : user.completeName.trim();
       final initials = _initials(user.firstName, user.lastName);
 
@@ -287,7 +287,7 @@ class _ProfileCard extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(18, 16, 16, 16),
           decoration: BoxDecoration(
             gradient: const LinearGradient(
-              colors: [Color(0xFF7A1EC2), Color(0xFF2D0738)],
+              colors: [Color(0xFF6F3A91), Color(0xFF321548)],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),

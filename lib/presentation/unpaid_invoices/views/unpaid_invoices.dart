@@ -162,7 +162,7 @@ class _UnpaidItem extends StatelessWidget {
           width: context.width,
           height: 5,
           buttonBorderRadius: 8,
-          backgroundColor: const Color(0xFF7A1EC2),
+          backgroundColor: const Color(0xFF6F3A91),
           onTap: () {
             final bottomNavNestedID =
                 find<BottomNavController>().bottomNavNestedID;

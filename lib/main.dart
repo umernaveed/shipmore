@@ -55,7 +55,7 @@ class StraightToYard extends StatelessWidget {
           ///
           initialRoute: AppRoutes.initialRoute,
           getPages: AppRoutes.routes,
-          title: 'Herms',
+          title: 'SHIPMORE COURIERS',
         );
       },
     );

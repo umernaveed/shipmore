@@ -155,7 +155,7 @@ class AddressItemWidget extends StatelessWidget {
           Text(
             mainAddress,
             style: TextStyle(
-              color: const Color(0xFF7A1EC2),
+              color: const Color(0xFF6F3A91),
               fontSize: 15.sp,
               fontWeight: FontWeight.w600,
             ),

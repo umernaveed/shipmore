@@ -86,7 +86,7 @@ class Loading extends StatelessWidget {
           child: AppBody(
             'discreteCircle',
             LoadingAnimationWidget.fourRotatingDots(
-              color: const Color(0xFF7A1EC2),
+              color: const Color(0xFF6F3A91),
               size: 85,
             ),
           ).widget,

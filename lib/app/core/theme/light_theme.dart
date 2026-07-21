@@ -7,15 +7,15 @@ class LightTheme extends BaseTheme {
   BottomNavigationBarThemeData get bottomNavigationBarThemeData =>
       BottomNavigationBarThemeData(
         selectedIconTheme: const IconThemeData(
-          color: Color(0xFF7A1EC2),
+          color: Color(0xFF6F3A91),
         ),
         unselectedIconTheme: const IconThemeData(
           color: Color(0xFF181725),
         ),
-        selectedItemColor: const Color(0xFF7A1EC2),
+        selectedItemColor: const Color(0xFF6F3A91),
         unselectedItemColor: const Color(0xFF181725),
         selectedLabelStyle: TextStyle(
-          color: const Color(0xFF7A1EC2),
+          color: const Color(0xFF6F3A91),
           fontSize: 8.sp,
           fontWeight: FontWeight.w600,
         ),
@@ -89,32 +89,32 @@ class LightTheme extends BaseTheme {
   Color get scaffoldBackgroundColor => Colors.white;
 
   @override
-  MaterialColor get primarySwatch => MaterialColor(0xFF7A1EC2, {
-        50: const Color(0xFF7A1EC2).withOpacity(0.1),
-        100: const Color(0xFF7A1EC2).withOpacity(0.2),
-        200: const Color(0xFF7A1EC2).withOpacity(0.3),
-        300: const Color(0xFF7A1EC2).withOpacity(0.4),
-        400: const Color(0xFF7A1EC2).withOpacity(0.5),
-        500: const Color(0xFF7A1EC2), // Primary color
-        600: const Color(0xFF7A1EC2).withOpacity(0.6),
-        700: const Color(0xFF7A1EC2).withOpacity(0.7),
-        800: const Color(0xFF7A1EC2).withOpacity(0.8),
-        900: const Color(0xFF7A1EC2).withOpacity(0.9),
+  MaterialColor get primarySwatch => MaterialColor(0xFF6F3A91, {
+        50: const Color(0xFF6F3A91).withOpacity(0.1),
+        100: const Color(0xFF6F3A91).withOpacity(0.2),
+        200: const Color(0xFF6F3A91).withOpacity(0.3),
+        300: const Color(0xFF6F3A91).withOpacity(0.4),
+        400: const Color(0xFF6F3A91).withOpacity(0.5),
+        500: const Color(0xFF6F3A91), // Primary color
+        600: const Color(0xFF6F3A91).withOpacity(0.6),
+        700: const Color(0xFF6F3A91).withOpacity(0.7),
+        800: const Color(0xFF6F3A91).withOpacity(0.8),
+        900: const Color(0xFF6F3A91).withOpacity(0.9),
       });
 
   /// dark theme swatch
   //  darkTheme: ThemeData(
-  //   primarySwatch: MaterialColor(0xFF7A1EC2, {
-  //     50: Color(0xFF7A1EC2).withOpacity(0.1),
-  //     100: Color(0xFF7A1EC2).withOpacity(0.2),
-  //     200: Color(0xFF7A1EC2).withOpacity(0.3),
-  //     300: Color(0xFF7A1EC2).withOpacity(0.4),
-  //     400: Color(0xFF7A1EC2).withOpacity(0.5),
-  //     500: Color(0xFF7A1EC2), // Primary color for dark theme
-  //     600: Color(0xFF7A1EC2).withOpacity(0.6),
-  //     700: Color(0xFF7A1EC2).withOpacity(0.7),
-  //     800: Color(0xFF7A1EC2).withOpacity(0.8),
-  //     900: Color(0xFF7A1EC2).withOpacity(0.9),
+  //   primarySwatch: MaterialColor(0xFF6F3A91, {
+  //     50: Color(0xFF6F3A91).withOpacity(0.1),
+  //     100: Color(0xFF6F3A91).withOpacity(0.2),
+  //     200: Color(0xFF6F3A91).withOpacity(0.3),
+  //     300: Color(0xFF6F3A91).withOpacity(0.4),
+  //     400: Color(0xFF6F3A91).withOpacity(0.5),
+  //     500: Color(0xFF6F3A91), // Primary color for dark theme
+  //     600: Color(0xFF6F3A91).withOpacity(0.6),
+  //     700: Color(0xFF6F3A91).withOpacity(0.7),
+  //     800: Color(0xFF6F3A91).withOpacity(0.8),
+  //     900: Color(0xFF6F3A91).withOpacity(0.9),
   //   }),
   // ),
 }

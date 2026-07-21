@@ -260,7 +260,7 @@ class PackagesReadyCounterButton extends StatelessWidget {
       height: 42,
       alignment: Alignment.center,
       decoration: ShapeDecoration(
-        color: const Color(0xFF7A1EC2),
+        color: const Color(0xFF6F3A91),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6)),
       ),
       child: const Text(

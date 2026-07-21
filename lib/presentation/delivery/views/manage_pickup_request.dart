@@ -35,7 +35,7 @@ class ManagePickupRequest extends GetView<ManagePickUpRequestController> {
         title: Text(
           'Manage Delivery Request',
           style: context.textTheme.bodyLarge?.copyWith(
-            color: const Color(0xFF7A1EC2),
+            color: const Color(0xFF6F3A91),
             fontSize: 16.sp,
             fontFamily: 'Poppins',
             fontWeight: FontWeight.w700,

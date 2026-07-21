@@ -13,10 +13,10 @@ import 'package:we_ship_faas/presentation/auth/controllers/login_controller.dart
 class LoginScreen extends GetView<LoginController> {
   const LoginScreen({super.key});
 
-  static const Color primaryBlue = Color(0xFF7A1EC2);
-  static const Color deepBlue = Color(0xFF26052F);
+  static const Color primaryBlue = Color(0xFF6F3A91);
+  static const Color deepBlue = Color(0xFF321548);
   static const Color mutedText = Color(0xFF696D91);
-  static const Color fieldBorder = Color(0xFFC79BEA);
+  static const Color fieldBorder = Color(0xFFC8ADD8);
 
   @override
   Widget build(BuildContext context) {
@@ -119,86 +119,10 @@ class _BrandLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final logoScale = math.min(scale, 1.0);
-
-    return Column(
-      children: [
-        FittedBox(
-          fit: BoxFit.scaleDown,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: [
-              CustomPaint(
-                size: Size(44 * logoScale, 28 * logoScale),
-                painter: const _SpeedMarkPainter(),
-              ),
-              SizedBox(width: 4 * logoScale),
-              Text.rich(
-                TextSpan(
-                  children: [
-                    TextSpan(
-                      text: 'Herms',
-                      style: TextStyle(
-                        color: LoginScreen.deepBlue,
-                        fontSize: 36 * logoScale,
-                        fontFamily: 'Poppins',
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w800,
-                        height: 0.95,
-                      ),
-                    ),
-                    TextSpan(
-                      text: '',
-                      style: TextStyle(
-                        color: LoginScreen.primaryBlue,
-                        fontSize: 36 * logoScale,
-                        fontFamily: 'Poppins',
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w800,
-                        height: 0.95,
-                      ),
-                    ),
-                  ],
-                ),
-                maxLines: 1,
-              ),
-            ],
-          ),
-        ),
-        SizedBox(height: 12 * scale),
-        FittedBox(
-          fit: BoxFit.scaleDown,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                width: 22 * scale,
-                height: 1.4,
-                color: LoginScreen.primaryBlue,
-              ),
-              Padding(
-                padding: EdgeInsets.symmetric(horizontal: 10 * scale),
-                child: Text(
-                  'C O U R I E R  L . T . D',
-                  style: TextStyle(
-                    color: LoginScreen.deepBlue,
-                    fontSize: 12 * scale,
-                    fontFamily: 'Poppins',
-                    fontWeight: FontWeight.w600,
-                    letterSpacing: 5.0,
-                  ),
-                ),
-              ),
-              Container(
-                width: 22 * scale,
-                height: 1.4,
-                color: LoginScreen.primaryBlue,
-              ),
-            ],
-          ),
-        ),
-      ],
+    return Image.asset(
+      'assets/images/app_logo_image.png',
+      width: 320 * math.min(scale, 1.0),
+      fit: BoxFit.contain,
     );
   }
 }
@@ -227,7 +151,7 @@ class _LoginCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(28 * scale),
         boxShadow: [
           BoxShadow(
-            color: const Color(0xFF0C56D9).withOpacity(0.18),
+            color: const Color(0xFF6F3A91).withOpacity(0.18),
             offset: Offset(0, 22 * scale),
             blurRadius: 38 * scale,
           ),
@@ -247,11 +171,11 @@ class _LoginCard extends StatelessWidget {
                 width: 62 * scale,
                 height: 62 * scale,
                 decoration: BoxDecoration(
-                  color: const Color(0xFFE8F0FF),
+                  color: const Color(0xFFF4EAF7),
                   shape: BoxShape.circle,
                   boxShadow: [
                     BoxShadow(
-                      color: const Color(0xFFC79BEA).withOpacity(0.28),
+                      color: const Color(0xFFC8ADD8).withOpacity(0.28),
                       offset: Offset(0, 10 * scale),
                       blurRadius: 16 * scale,
                     ),
@@ -284,7 +208,7 @@ class _LoginCard extends StatelessWidget {
                     ),
                     SizedBox(height: 10 * scale),
                     Text(
-                      'Login to your Herms account',
+                      'Login to your SHIPMORE COURIERS account',
                       style: TextStyle(
                         color: LoginScreen.mutedText,
                         fontSize: 16 * scale,
@@ -538,7 +462,7 @@ class _LoginButton extends StatelessWidget {
       child: DecoratedBox(
         decoration: BoxDecoration(
           gradient: const LinearGradient(
-            colors: [Color(0xFF8A2BE2), Color(0xFF2D0738)],
+            colors: [Color(0xFF6F3A91), Color(0xFF321548)],
             begin: Alignment.centerLeft,
             end: Alignment.centerRight,
           ),
@@ -636,12 +560,12 @@ class _LoginBackgroundPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final blue = LoginScreen.primaryBlue;
-    const deepBlue = Color(0xFF2D0738);
+    const deepBlue = Color(0xFF321548);
 
     final topGlow = Paint()
       ..shader = RadialGradient(
         colors: [
-          const Color(0xFFEAF3FF).withOpacity(0.7),
+          const Color(0xFFF8F1FB).withOpacity(0.7),
           Colors.white.withOpacity(0),
         ],
       ).createShader(Rect.fromCircle(
@@ -712,15 +636,15 @@ class _LoginBackgroundPainter extends CustomPainter {
         begin: Alignment.topCenter,
         end: Alignment.bottomCenter,
         colors: [
-          const Color(0xFFB86BE8).withOpacity(0.20),
-          const Color(0xFF8A2BE2).withOpacity(0.88),
-          const Color(0xFF5B168F),
+          const Color(0xFFA56AC6).withOpacity(0.20),
+          const Color(0xFF6F3A91).withOpacity(0.88),
+          const Color(0xFF55236F),
         ],
         stops: const [0, 0.48, 1],
       ).createShader(rect);
     canvas.drawRect(rect, gradientPaint);
 
-    final shipPaint = Paint()..color = const Color(0xFF45106F).withOpacity(0.78);
+    final shipPaint = Paint()..color = const Color(0xFF4B1C62).withOpacity(0.78);
     final ship = Path()
       ..moveTo(size.width * 0.60, size.height * 0.91)
       ..lineTo(size.width * 0.96, size.height * 0.91)
@@ -738,7 +662,7 @@ class _LoginBackgroundPainter extends CustomPainter {
         ),
         const Radius.circular(4),
       ),
-      Paint()..color = const Color(0xFF7A1EC2).withOpacity(0.55),
+      Paint()..color = const Color(0xFF6F3A91).withOpacity(0.55),
     );
     for (var i = 0; i < 4; i++) {
       final yOffset = i.isEven ? 0.0 : size.height * 0.015;
@@ -749,11 +673,11 @@ class _LoginBackgroundPainter extends CustomPainter {
           size.width * 0.045,
           size.height * 0.035,
         ),
-        Paint()..color = const Color(0xFFB86BE8).withOpacity(0.42),
+        Paint()..color = const Color(0xFFA56AC6).withOpacity(0.42),
       );
     }
 
-    final vanPaint = Paint()..color = const Color(0xFFEAF3FF).withOpacity(0.78);
+    final vanPaint = Paint()..color = const Color(0xFFF8F1FB).withOpacity(0.78);
     final vanTop = size.height * 0.90;
     final vanLeft = size.width * 0.05;
     final van = RRect.fromRectAndRadius(
@@ -781,7 +705,7 @@ class _LoginBackgroundPainter extends CustomPainter {
     );
 
     final routePaint = Paint()
-      ..color = const Color(0xFFE0C15B).withOpacity(0.75)
+      ..color = const Color(0xFFFF6A00).withOpacity(0.75)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 1.5;
     final route = Path()
@@ -804,7 +728,7 @@ class _LoginBackgroundPainter extends CustomPainter {
       );
     _drawDashedPath(canvas, route, routePaint);
     final pinCenter = Offset(size.width * 0.50, size.height * 0.89);
-    canvas.drawCircle(pinCenter, 10, Paint()..color = const Color(0xFFE0C15B));
+    canvas.drawCircle(pinCenter, 10, Paint()..color = const Color(0xFFFF6A00));
     canvas.drawCircle(pinCenter, 4, Paint()..color = blue);
   }
 
@@ -839,7 +763,7 @@ class _SpeedMarkPainter extends CustomPainter {
       canvas.drawLine(Offset(start, y), Offset(end, y), paint);
     }
     final accent = Paint()
-      ..color = const Color(0xFFE0C15B)
+      ..color = const Color(0xFFFF6A00)
       ..strokeCap = StrokeCap.round
       ..strokeWidth = size.height * 0.14;
     canvas.drawLine(
@@ -887,13 +811,13 @@ class AuthWidgetSpanBuilder extends StatelessWidget {
             ),
             WidgetSpan(
               child: InkWell(
-                splashColor: Color(0xFF7A1EC2),
+                splashColor: Color(0xFF6F3A91),
                 borderRadius: BorderRadius.circular(3),
                 onTap: onTap,
                 child: Text(
                   secondTitle,
                   style: context.textTheme.bodyMedium?.copyWith(
-                    color: const Color(0xFF7A1EC2),
+                    color: const Color(0xFF6F3A91),
                     fontSize: 10.5.sp,
                     fontWeight: FontWeight.w400,
                   ),
@@ -940,7 +864,7 @@ class AppButton extends StatelessWidget {
       child: TextButton(
         style: TextButton.styleFrom(
           disabledBackgroundColor: Colors.black12.withOpacity(0.1),
-          backgroundColor: backgroundColor ?? const Color(0xFF7A1EC2),
+          backgroundColor: backgroundColor ?? const Color(0xFF6F3A91),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(buttonBorderRadius),
             side: side,

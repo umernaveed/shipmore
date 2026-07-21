@@ -88,10 +88,10 @@ class FileUploadDialog extends GetView<FileUploadController> {
                 color: Color(0xFFF2F3F2),
               ),
               child: IconButton(
-                splashColor: Color(0xFF7A1EC2),
+                splashColor: Color(0xFF6F3A91),
                 splashRadius: 10,
                 padding: EdgeInsets.zero,
-                highlightColor: Color(0xFF7A1EC2),
+                highlightColor: Color(0xFF6F3A91),
                 onPressed: () {
                   controller.clearFile();
                   Get.back();
@@ -211,7 +211,7 @@ void _showPickerSheet(
           child: const Text(
             'Image',
             style: TextStyle(
-              color: Color(0xFF7A1EC2),
+              color: Color(0xFF6F3A91),
             ),
           ),
           onPressed: () {
@@ -223,7 +223,7 @@ void _showPickerSheet(
           child: const Text(
             'File',
             style: TextStyle(
-              color: Color(0xFF7A1EC2),
+              color: Color(0xFF6F3A91),
             ),
           ),
           onPressed: () {

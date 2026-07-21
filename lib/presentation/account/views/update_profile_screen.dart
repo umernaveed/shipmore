@@ -414,7 +414,7 @@ class AppDatePicker extends StatelessWidget {
           decoration: InputDecoration(
             suffixIcon: const Icon(
               Icons.calendar_today,
-              color: Color(0xFF7A1EC2),
+              color: Color(0xFF6F3A91),
             ),
             hintText: hint,
             hintStyle: context.textTheme.bodyMedium?.copyWith(

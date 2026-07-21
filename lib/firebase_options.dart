@@ -63,7 +63,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '56503226726',
     projectId: 'weshipfast-2fbb1',
     storageBucket: 'weshipfast-2fbb1.firebasestorage.app',
-    iosBundleId: 'com.herms.app',
+    iosBundleId: 'com.shipmore.app',
   );
 
 }

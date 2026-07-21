@@ -41,7 +41,7 @@ class DownloadDialog extends GetView<FileDownloadController> {
                     minHeight: 10.0,
                     borderRadius: BorderRadius.circular(10),
                     valueColor: const AlwaysStoppedAnimation<Color>(
-                      Color(0xFF7A1EC2),
+                      Color(0xFF6F3A91),
                     ),
                   ),
                 ),
@@ -59,10 +59,10 @@ class DownloadDialog extends GetView<FileDownloadController> {
                 color: Color(0xFFF2F3F2),
               ),
               child: IconButton(
-                splashColor: Color(0xFF7A1EC2),
+                splashColor: Color(0xFF6F3A91),
                 splashRadius: 10,
                 padding: EdgeInsets.zero,
-                highlightColor: Color(0xFF7A1EC2),
+                highlightColor: Color(0xFF6F3A91),
                 onPressed: () {
                   controller.clear();
                   Get.back();

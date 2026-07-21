@@ -1,4 +1,4 @@
-package com.herms.app
+package com.shipmore.app
 
 import io.flutter.embedding.android.FlutterActivity
 

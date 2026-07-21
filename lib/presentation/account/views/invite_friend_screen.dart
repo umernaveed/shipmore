@@ -29,7 +29,7 @@ class InviteFriendScreen extends GetView<InviteFriendController> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: controller.addInvitationForm,
-        backgroundColor: const Color(0xFF7A1EC2),
+        backgroundColor: const Color(0xFF6F3A91),
         child: const Icon(Icons.add, color: Colors.white),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
@@ -137,7 +137,7 @@ class _InvitationFormCard extends StatelessWidget {
                 Text(
                   formCount > 1 ? 'Invitation $displayIndex' : 'Invite Friend',
                   style: TextStyle(
-                    color: const Color(0xFF7A1EC2),
+                    color: const Color(0xFF6F3A91),
                     fontSize: 16.sp,
                     fontWeight: FontWeight.w700,
                   ),
@@ -167,7 +167,7 @@ class _InvitationFormCard extends StatelessWidget {
                 focusedBorder: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(8),
                   borderSide:
-                      const BorderSide(color: Color(0xFF7A1EC2), width: 2),
+                      const BorderSide(color: Color(0xFF6F3A91), width: 2),
                 ),
                 errorBorder: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(8),

@@ -8,8 +8,8 @@ abstract class BaseTheme {
   BottomNavigationBarThemeData get bottomNavigationBarThemeData;
   InputDecorationTheme? get inputDecorationTheme;
   ColorScheme? get colorScheme => const ColorScheme.light(
-        primary: Color(0xFF7A1EC2),
-        secondary: Color(0xFFD7B24A),
+        primary: Color(0xFF6F3A91),
+        secondary: Color(0xFFFF6A00),
         surface: Colors.white,
       );
   MaterialColor get primarySwatch;
@@ -33,7 +33,7 @@ abstract class BaseTheme {
         titleLarge: TextStyle(
           fontSize: 24,
           fontWeight: FontWeight.bold,
-          color: Color(0xFF7A1EC2),
+          color: Color(0xFF6F3A91),
           fontFamily: fontTheme.fontFamily,
         ),
         displayLarge: TextStyle(
@@ -90,13 +90,13 @@ abstract class BaseTheme {
         titleMedium: TextStyle(
           fontSize: 20,
           fontWeight: FontWeight.bold,
-          color: Color(0xFF7A1EC2),
+          color: Color(0xFF6F3A91),
           fontFamily: fontTheme.fontFamily,
         ),
         titleSmall: TextStyle(
           fontSize: 18,
           fontWeight: FontWeight.bold,
-          color: Color(0xFF7A1EC2),
+          color: Color(0xFF6F3A91),
           fontFamily: fontTheme.fontFamily,
         ),
       );
@@ -105,13 +105,13 @@ abstract class BaseTheme {
         fontFamily: fontTheme.fontFamily,
         brightness: brightness,
         useMaterial3: false,
-        primaryColor: const Color(0xFF7A1EC2),
+        primaryColor: const Color(0xFF6F3A91),
         primarySwatch: primarySwatch,
         scaffoldBackgroundColor: scaffoldBackgroundColor,
         floatingActionButtonTheme: floatingActionButtonTheme,
         textTheme: textTheme,
         progressIndicatorTheme: const ProgressIndicatorThemeData(
-          color: Color(0xFF7A1EC2),
+          color: Color(0xFF6F3A91),
           circularTrackColor: Color(0xFFE2E2E2),
           linearTrackColor: Color(0xFFE2E2E2),
           linearMinHeight: 4.0,
@@ -120,7 +120,7 @@ abstract class BaseTheme {
         inputDecorationTheme: inputDecorationTheme,
         colorScheme: colorScheme,
         datePickerTheme: const DatePickerThemeData(
-          headerBackgroundColor: Color(0xFF7A1EC2),
+          headerBackgroundColor: Color(0xFF6F3A91),
           headerForegroundColor: Colors.black,
         ),
         textSelectionTheme: const TextSelectionThemeData(

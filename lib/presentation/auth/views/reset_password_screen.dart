@@ -32,7 +32,7 @@ class ResetPasswordScreen extends GetView<ResetPasswordController> {
                 Text(
                   'Re-set Password',
                   style: context.textTheme.bodyLarge?.copyWith(
-                    color: const Color(0xFF7A1EC2),
+                    color: const Color(0xFF6F3A91),
                     fontSize: 26,
                     fontWeight: FontWeight.w700,
                   ),

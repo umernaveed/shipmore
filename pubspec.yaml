@@ -63,7 +63,7 @@ dev_dependencies:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/images/appstore.png"
+  image_path: "assets/images/icon.png"
   min_sdk_android: 21 # android min sdk min:16, default 21
   remove_alpha_ios: true
   background_color_ios: "#ffffff"
@@ -101,7 +101,7 @@ flutter:
           weight: 200
 
 flutter_native_splash:
-  color: "#fbf6ff"
+  color: "#f8f1fb"
   image: assets/images/splash_logo.png
   # Android 12 handles the splash screen differently than previous versions.  Please visit
   # https://developer.android.com/guide/topics/ui/splash-screen
@@ -115,4 +115,4 @@ flutter_native_splash:
     # App icon without an icon background: This should be 1152×1152 pixels, and fit within a circle
     # 768 pixels in diameter.
     image: assets/images/splash_logo.png
-    color: "#fbf6ff"
+    color: "#f8f1fb"

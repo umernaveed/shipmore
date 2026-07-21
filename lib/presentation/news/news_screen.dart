@@ -124,7 +124,7 @@ class _LiteLogo extends StatelessWidget {
               TextSpan(
                 children: [
                   const TextSpan(
-                    text: 'Herms',
+                    text: 'SHIPMORE COURIERS',
                     style: TextStyle(color: Dashboard.darkBlue),
                   ),
                   TextSpan(

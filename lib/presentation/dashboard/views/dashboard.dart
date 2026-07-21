@@ -12,11 +12,11 @@ import 'package:we_ship_faas/presentation/widgets/shimmer_widget.dart';
 class Dashboard extends GetView<DashboardController> {
   const Dashboard({super.key});
 
-  static const Color blue = Color(0xFF7A1EC2);
-  static const Color darkBlue = Color(0xFF26052F);
+  static const Color blue = Color(0xFF6F3A91);
+  static const Color darkBlue = Color(0xFF321548);
   static const Color purple = Color(0xFF9B35D6);
   static const Color green = Color(0xFF07A64B);
-  static const Color orange = Color(0xFFD7B24A);
+  static const Color orange = Color(0xFFFF6A00);
   static const Color pageBg = Color(0xFFFCF9FF);
 
   @override
@@ -275,7 +275,7 @@ class _LiteLogo extends StatelessWidget {
               TextSpan(
                 children: [
                   const TextSpan(
-                    text: 'Herms',
+                    text: 'SHIPMORE COURIERS',
                     style: TextStyle(color: Dashboard.darkBlue),
                   ),
                   TextSpan(
@@ -337,7 +337,7 @@ class _AccountSummary extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(18, 14, 18, 14),
       decoration: BoxDecoration(
         gradient: const LinearGradient(
-          colors: [Color(0xFF7A1EC2), Color(0xFF2D0738)],
+          colors: [Color(0xFF6F3A91), Color(0xFF321548)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
@@ -1658,7 +1658,7 @@ class _SpeedMarkPainter extends CustomPainter {
       canvas.drawLine(Offset(start, y), Offset(end, y), paint);
     }
     final accent = Paint()
-      ..color = const Color(0xFFE0C15B)
+      ..color = const Color(0xFFFF6A00)
       ..strokeCap = StrokeCap.round
       ..strokeWidth = size.height * 0.14;
     canvas.drawLine(

@@ -64,7 +64,7 @@ class AddPurchase extends GetView<AddPurchaseController> {
                         ? 'Update Purchase Request'
                         : 'Add Purchase Request',
                     style: TextStyle(
-                      color: const Color(0xFF7A1EC2),
+                      color: const Color(0xFF6F3A91),
                       fontSize: 16.sp,
                       fontWeight: FontWeight.w700,
                     ),

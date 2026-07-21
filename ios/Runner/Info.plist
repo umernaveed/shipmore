@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Herms</string>
+	<string>SHIPMORE COURIERS</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Herms</string>
+	<string>SHIPMORE COURIERS</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -34,13 +34,13 @@
 	<key>LSSupportsOpeningDocumentsInPlace</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Allow Herms to upload profile pictures using the camera</string>
+	<string>Allow SHIPMORE COURIERS to upload profile pictures using the camera</string>
 	<key>NSDocumentFolderUsageDescription</key>
-	<string>Allow Herms to store and upload user invoices in the app's Documents folder for billing and accounting purposes</string>
+	<string>Allow SHIPMORE COURIERS to store and upload user invoices in the app's Documents folder for billing and accounting purposes</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow Herms to record using your phone's microphone</string>
+	<string>Allow SHIPMORE COURIERS to record using your phone's microphone</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Allow Herms to upload profile pictures using photo library</string>
+	<string>Allow SHIPMORE COURIERS to upload profile pictures using photo library</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

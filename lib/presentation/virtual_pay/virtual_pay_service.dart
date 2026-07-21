@@ -34,7 +34,7 @@ class VirtualPayService {
   VirtualPayService._();
 
   static const String returnUrl =
-      'https://hermsjamaica.com/payment/success';
+      'https://shipmoretrackingja.com/payment/success';
 
   static final VirtualPayService _instance = VirtualPayService._();
 

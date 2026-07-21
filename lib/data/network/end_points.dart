@@ -1,5 +1,5 @@
 abstract class EndPoints {
-  static const String baseURL = 'https://hermsjamaica.com';
+  static const String baseURL = 'https://shipmoretrackingja.com';
   static const String registerUser = '/api/RegisterUser';
   static const String loginUser = '/api/loginUser';
   static const String forgotPassword = '/api/ForgotPassword';

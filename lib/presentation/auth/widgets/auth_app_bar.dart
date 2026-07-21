@@ -93,18 +93,16 @@ class AuthCustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                             padding: EdgeInsets.only(
                                 right: _type.isSmall ? 0 : 10.w),
                             child: Image.asset(
-                              'assets/images/icon.png',
-                              fit: BoxFit.fill,
-                              width: _type.isSmall ? 25.w : 49.w,
-                              height: _type.isSmall ? 9.h : 14.h,
+                              Drawables.appLogoImage,
+                              fit: BoxFit.contain,
+                              width: _type.isSmall ? 30.w : 56.w,
                             ),
                           )
                         : isSVG
                             ? SvgPicture.network(
                                 appLogo,
-                                fit: BoxFit.fill,
+                                fit: BoxFit.contain,
                                 width: _type.isSmall ? 25.w : 49.w,
-                                height: _type.isSmall ? 9.h : 14.h,
                                 placeholderBuilder: (context) {
                                   return Container(
                                     color: Colors.white,
